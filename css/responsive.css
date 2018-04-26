@@ -1,0 +1,39 @@
+@media (max-width: 767px) {
+   .carousel-caption h1 {
+		font-size: 23px;
+	}
+	.carousel-caption h2 {
+		font-size: 16px;
+	}
+	.carousel-item {
+		height: 28rem;
+	}
+	.main-menu li a {
+		padding: 10px 15px;
+		color: #babcc0;
+		font-family: tahoma;
+		font-size: 22px;
+	}
+	.main-menu{
+		text-align: center;
+	}
+	.search-form input {
+		width: 90%;
+	}
+	.search-form i {
+		left: 10%;
+	}
+}
+
+@media all and (max-width: 459px){
+	#myCarousel:after {
+		
+		height: 80px;
+		background-repeat: no-repeat;
+		position: relative;
+		top: -23px;
+	}
+	.trigger-control-prev, .trigger-control-next {
+	background: transparent;
+}
+}
